@@ -702,7 +702,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "butter-curry-rund",
     name: {
-      en: "Butter Curry Rund",
+      en: "Butter Curry Beef",
       nl: "Butter Curry Rund",
       de: "Butter Curry Rund",
     },
@@ -722,7 +722,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "tikka-masala-rund",
     name: {
-      en: "Tikka Masala Rund",
+      en: "Tikka Masala Beef",
       nl: "Tikka Masala Rund",
       de: "Tikka Masala Rund",
     },
@@ -742,7 +742,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "korma-rund",
     name: {
-      en: "Korma Rund",
+      en: "Korma Beef",
       nl: "Korma Rund",
       de: "Korma Rund",
     },
@@ -762,7 +762,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "jal-freazi-rund",
     name: {
-      en: "Jal-freazi Rund",
+      en: "Jal-freazi Beef",
       nl: "Jal-freazi Rund",
       de: "Jal-freazi Rund",
     },
@@ -782,7 +782,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "rogan-josh-rund",
     name: {
-      en: "Rogan Josh Rund",
+      en: "Rogan Josh Beef",
       nl: "Rogan Josh Rund",
       de: "Rogan Josh Rund",
     },
@@ -802,7 +802,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "bhuna-rund",
     name: {
-      en: "Bhuna Rund",
+      en: "Bhuna Beef",
       nl: "Bhuna Rund",
       de: "Bhuna Rund",
     },
@@ -822,7 +822,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "rund-curry",
     name: {
-      en: "Rund Curry",
+      en: "Beef Curry",
       nl: "Rund Curry",
       de: "Rund Curry",
     },
@@ -842,7 +842,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "saag-rund",
     name: {
-      en: "Saag Rund",
+      en: "Saag Beef",
       nl: "Saag Rund",
       de: "Saag Rund",
     },
@@ -862,7 +862,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "madras-rund",
     name: {
-      en: "Madras Rund",
+      en: "Madras Beef",
       nl: "Madras Rund",
       de: "Madras Rund",
     },
@@ -882,7 +882,7 @@ export const menuItems: MenuItem[] = [
   {
     id: "vindaloo-rund",
     name: {
-      en: "Vindaloo Rund",
+      en: "Vindaloo Beef",
       nl: "Vindaloo Rund",
       de: "Vindaloo Rund",
     },
@@ -1164,8 +1164,8 @@ export const menuItems: MenuItem[] = [
     id: "salmon-massala",
     name: {
       en: "Salmon Massala",
-      nl: "Salmon Massala",
-      de: "Salmon Massala",
+      nl: "Zalm Massala",
+      de: "Zalm Massala",
     },
     description: {
       en: "salmon cooked in rich massala spices",
@@ -1184,8 +1184,8 @@ export const menuItems: MenuItem[] = [
     id: "salmon-kurma",
     name: {
       en: "Salmon Kurma",
-      nl: "Salmon Kurma",
-      de: "Salmon Kurma",
+      nl: "Zalm Kurma",
+      de: "Zalm Kurma",
     },
     description: {
       en: "creamy and mild kurma curry with salmon",
@@ -1204,8 +1204,8 @@ export const menuItems: MenuItem[] = [
     id: "salmon-bhuna",
     name: {
       en: "Salmon Bhuna",
-      nl: "Salmon Bhuna",
-      de: "Salmon Bhuna",
+      nl: "Zalm Bhuna",
+      de: "Zalm Bhuna",
     },
     description: {
       en: "thick and spicy bhuna curry with salmon",

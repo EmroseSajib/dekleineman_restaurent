@@ -484,7 +484,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Tikka Masala",
       nl: "Chicken Tikka Masala",
-      de: "Chicken Tikka Masala",
+      de: "Kip Tikka Masala",
     },
     description: {
       en: "grilled chicken in a rich spiced tomato masala sauce",
@@ -524,7 +524,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Korma",
       nl: "Chicken Korma",
-      de: "Chicken Korma",
+      de: "Kip Korma",
     },
     description: {
       en: "mild chicken curry cooked with cream and coconut",
@@ -564,7 +564,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Bhuna",
       nl: "Chicken Bhuna",
-      de: "Chicken Bhuna",
+      de: "Kip Bhuna",
     },
     description: {
       en: "thick medium-spiced chicken curry cooked with onions and tomatoes",
@@ -604,7 +604,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Jalfrezi",
       nl: "Chicken Jalfrezi",
-      de: "Chicken Jalfrezi",
+      de: "Kip Jalfrezi",
     },
     description: {
       en: "spicy chicken cooked with peppers, onions and fresh herbs",
@@ -644,7 +644,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Pathia",
       nl: "Chicken Pathia",
-      de: "Chicken Pathia",
+      de: "Kip Pathia",
     },
     description: {
       en: "sweet and sour spicy chicken curry",
@@ -664,7 +664,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Madras",
       nl: "Chicken Madras",
-      de: "Chicken Madras",
+      de: "Kip Madras",
     },
     description: {
       en: "hot South Indian style chicken curry",
@@ -684,7 +684,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Vindaloo",
       nl: "Chicken Vindaloo",
-      de: "Chicken Vindaloo",
+      de: "Kip Vindaloo",
     },
     description: {
       en: "very hot chicken curry cooked with chili and spices",
@@ -1485,7 +1485,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Tikka",
       nl: "Chicken Tikka",
-      de: "Chicken Tikka",
+      de: "Kip Tikka",
     },
     description: {
       en: "marinated chicken pieces grilled to perfection",
@@ -1505,7 +1505,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Malai Tikka",
       nl: "Chicken Malai Tikka",
-      de: "Chicken Malai Tikka",
+      de: "Kip Malai Tikka",
     },
     description: {
       en: "creamy and mild chicken tikka with cheese and spices",
@@ -1525,7 +1525,7 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Tandoori Chicken",
       nl: "Tandoori Chicken",
-      de: "Tandoori Chicken",
+      de: "Kip Tandoori",
     },
     description: {
       en: "classic tandoori chicken marinated in yogurt and spices",
@@ -1585,12 +1585,12 @@ export const menuItems: MenuItem[] = [
     name: {
       en: "Chicken Tikka Biryani",
       nl: "Chicken Tikka Biryani",
-      de: "Chicken Tikka Biryani",
+      de: "Kip Tikka Biryani",
     },
     description: {
       en: "fragrant basmati rice with marinated chicken tikka and spices",
       nl: "geurige basmatirijst met gemarineerde chicken tikka en kruiden",
-      de: "Aromatischer Basmati-Reis mit mariniertem Chicken Tikka und Gewürzen",
+      de: "Aromatischer Basmati-Reis mit mariniertem Kip Tikka und Gewürzen",
     },
     price: 19.5,
     category: "main",

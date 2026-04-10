@@ -30,7 +30,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        "🎉 Buy 1 Get 1 FREE! Papadam, Naan Bread & Rice – Limited Time Offer!",
+        "🎉 Buy 1 Get 1 FREE! Papadums, Butter Naan & Onion Bhaji – Limited Time Offer!",
       christmas: "🎄 Christmas Special Menu - Book your table now!",
       valentine: "❤️ Valentine's Special - Romantic dinner for two",
     },
@@ -313,7 +313,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        "🎉 Koop 1, krijg 1 GRATIS! Papadam, Naanbrood & Rijst – Alleen voor een beperkte tijd!",
+        "🎉 Koop 1, krijg 1 GRATIS! Papadums, Butter Naan & Onion Bhaji – Tijdelijke aanbieding!",
       christmas: "🎄 Kerst Speciaal Menu - Reserveer nu uw tafel!",
       valentine: "❤️ Valentijn Speciaal - Romantisch diner voor twee",
     },
@@ -378,7 +378,7 @@ export const translations = {
         main: "Hoofdgerechten",
         starters: "Voorgerechten",
         bread: "Brood",
-        sides: "Bijgerechten & Brood",
+        sides: "Bijgerechten",
         dessert: "Desserts",
         drinks: "Dranken",
       },
@@ -597,7 +597,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        "🎉 Kaufe 1, erhalte 1 GRATIS! Papadam, Naanbrot & Reis – Zeitlich begrenztes Angebot!",
+        "🎉 Kaufe 1, erhalte 1 GRATIS! Papadums, Butter Naan & Onion Bhaji – Nur für kurze Zeit!",
       christmas:
         "🎄 Weihnachts-Spezialmenü - Reservieren Sie jetzt Ihren Tisch!",
       valentine: "❤️ Valentinstag Spezial - Romantisches Abendessen für zwei",

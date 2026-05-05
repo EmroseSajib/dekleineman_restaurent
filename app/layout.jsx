@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "Dekleineman | Authentic Indian Restaurant in Doetinchem",
+    default: "Dekleineman | Indian Restaurant in Doetinchem",
     template: "%s | dekleineman",
   },
   description:
@@ -32,9 +32,9 @@ export const metadata = {
     alternateLocale: ["en_GB", "de_DE"],
     url: restaurantInfo.contact.website,
     siteName: "dekleineman",
-    title: "Dekleineman | Authentic Indian Restaurant",
+    title: "Dekleineman | Indian Restaurant in Doetinchem",
     description:
-      "Authentic Indian taste in the heart of Doetinchem. Order online or reserve your table today.",
+      "Experience authentic Indian cuisine at dekleineman in Doetinchem, Netherlands. Order online, reserve a table, or visit us for traditional tandoori, curries, and more.",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -46,8 +46,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "dekleineman | Authentic Indian Restaurant",
-    description: "Authentic Indian taste in the heart of Doetinchem.",
+    title: "dekleineman | Indian Restaurant in Doetinchem",
+    description: "Experience authentic Indian cuisine at dekleineman in Doetinchem, Netherlands.",
     images: ["/images/og-image.jpg"],
   },
   robots: {

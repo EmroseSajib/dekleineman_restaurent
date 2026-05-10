@@ -96,7 +96,7 @@ export const translations = {
         main: "Main Courses",
         starters: "Starters",
         sides: "Sides",
-        bread: "Bread",
+        "bread & rice": "Bread & Rice",
         dessert: "Dessert",
         drinks: "Drinks",
       },
@@ -377,7 +377,7 @@ export const translations = {
       categories: {
         main: "Hoofdgerechten",
         starters: "Voorgerechten",
-        bread: "Brood",
+        "bread & rice": "Brood & Rijst",
         sides: "Bijgerechten",
         dessert: "Desserts",
         drinks: "Dranken",
@@ -663,7 +663,7 @@ export const translations = {
       categories: {
         main: "Hauptgerichte",
         starters: "Vorspeisen",
-        bread: "Brood",
+        "bread & rice": "Brood & Reis",
         sides: "Beilagen",
         dessert: "Desserts",
         drinks: "Getränke",

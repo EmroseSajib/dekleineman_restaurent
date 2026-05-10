@@ -14,7 +14,7 @@ export type DietaryTag =
 export type MenuCategory =
   | "starters"
   | "main"
-  | "bread"
+  | "bread & rice"
   | "sides"
   | "dessert"
   | "drinks";
@@ -71,7 +71,11 @@ export const categoryLabels = {
   dessert: { en: "Desserts", nl: "Nagerechten", de: "Desserts" },
   drinks: { en: "Drinks", nl: "Dranken", de: "Getränke" },
   popular: { en: "Popular", nl: "Populair", de: "Beliebt" },
-  bread: { en: "Bread", nl: "Brood", de: "Brot" },
+  "bread & rice": {
+    en: "Bread & Rice",
+    nl: "Brood & Rijst",
+    de: "Brot & Reis",
+  },
 };
 
 export const subcategoryLabels = {
@@ -713,7 +717,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20.0,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "mild",
     dietary: ["halal"],
     image: "/butter-curry-rund.jpg",
@@ -733,7 +737,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20.0,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "medium",
     dietary: ["halal"],
     image: "/tikka-masala-rund.jpg",
@@ -753,7 +757,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "mild",
     dietary: ["halal"],
     image: "/korma-rund.jpg",
@@ -773,7 +777,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "hot",
     dietary: ["halal"],
     image: "/jal-freazi-rund.jpg",
@@ -793,7 +797,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20.0,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "medium",
     dietary: ["halal"],
     image: "/rogan-josh-rund.jpg",
@@ -813,7 +817,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20.0,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "medium",
     dietary: ["halal"],
     image: "/bhuna-rund.jpg",
@@ -833,7 +837,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "medium",
     dietary: ["halal"],
     image: "/rund-curry.jpg",
@@ -853,7 +857,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20.0,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "mild",
     dietary: ["halal"],
     image: "/saag-rund.jpg",
@@ -873,7 +877,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "hot",
     dietary: ["halal"],
     image: "/madras-rund.jpg",
@@ -893,7 +897,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 20.0,
     category: "main",
-    subcategory: "round-curry",
+    subcategory: "rund-curry",
     spiceLevel: "hot",
     dietary: ["halal"],
     image: "/vindaloo-rund.jpg",
@@ -914,7 +918,7 @@ export const menuItems: MenuItem[] = [
     },
     price: 21.0,
     category: "main",
-    subcategory: "lam-curry",
+    subcategory: "rund-curry",
     spiceLevel: "mild",
     dietary: ["halal"],
     image: "/butter-curry-lam.jpg",
@@ -1524,7 +1528,7 @@ export const menuItems: MenuItem[] = [
     id: "tandoori-chicken",
     name: {
       en: "Tandoori Chicken",
-      nl: "Tandoori Chicken",
+      nl: "Tandoori Kip",
       de: "Kip Tandoori",
     },
     description: {
@@ -1584,12 +1588,12 @@ export const menuItems: MenuItem[] = [
     id: "chicken-tikka-biryani",
     name: {
       en: "Chicken Tikka Biryani",
-      nl: "Chicken Tikka Biryani",
+      nl: "Kip Tikka Biryani",
       de: "Kip Tikka Biryani",
     },
     description: {
       en: "fragrant basmati rice with marinated chicken tikka and spices",
-      nl: "geurige basmatirijst met gemarineerde chicken tikka en kruiden",
+      nl: "geurige basmatirijst met gemarineerde kip tikka en kruiden",
       de: "Aromatischer Basmati-Reis mit mariniertem Kip Tikka und Gewürzen",
     },
     price: 19.5,
@@ -1604,7 +1608,7 @@ export const menuItems: MenuItem[] = [
     id: "lamb-biryani",
     name: {
       en: "Lamb Biryani",
-      nl: "Lamb Biryani",
+      nl: "Lam Biryani",
       de: "Lamb Biryani",
     },
     description: {
@@ -1624,7 +1628,7 @@ export const menuItems: MenuItem[] = [
     id: "vegetable-biryani",
     name: {
       en: "Vegetable Biryani",
-      nl: "Vegetable Biryani",
+      nl: "Groenten Biryani",
       de: "Vegetable Biryani",
     },
     description: {
@@ -1664,7 +1668,7 @@ export const menuItems: MenuItem[] = [
     id: "shahi-prawn-biryani",
     name: {
       en: "Shahi Prawn Biryani",
-      nl: "Shahi Prawn Biryani",
+      nl: "Shahi Garnalen Biryani",
       de: "Shahi Prawn Biryani",
     },
     description: {
@@ -1679,6 +1683,69 @@ export const menuItems: MenuItem[] = [
     dietary: ["halal"],
     image: "/shahi-prawn-biryani.jpg",
     isPopular: true,
+  },
+
+  {
+    id: "thali-vlees",
+    name: {
+      en: "Thali Meat",
+      nl: "Thali Vlees",
+      de: "Thali Fleisch",
+    },
+    description: {
+      en: "A spicy beef curry, a sweet chicken curry, a side dish, and a tandoori item. Served with rice, naan, raita, and salad.",
+      nl: "Een pittige curry met Rund, een zoete curry met Kip, een bijgerecht en een tandoori item. Geserveerd met een rijst, Naan, Raita en Salad.",
+      de: "Ein scharfes Rindercurry, ein süßes Hähnchencurry, eine Beilage und ein Tandoori-Gericht. Serviert mit Reis, Naan, Raita und Salat.",
+    },
+    price: 22.5,
+    category: "main",
+    subcategory: "thali",
+    spiceLevel: "medium",
+    dietary: ["halal"],
+    image: "/thali-vlees.jpg",
+    isPopular: true,
+  },
+
+  {
+    id: "thali-vegetarisch",
+    name: {
+      en: "Vegetarian Thali",
+      nl: "Thali vegetarisch",
+      de: "Vegetarisches Thali",
+    },
+    description: {
+      en: "A spicy spinach curry with Indian cheese, a sweet vegetable curry, a side dish, and onion bhaji. Served with rice, naan, soan papdi, and salad.",
+      nl: "Een pittige curry met spinazie een Indiase Kaas, een zoete curry met Gronten, een bijgerecht en onion Bhaji. Geserveerd met een rijst, Naan, Soan Papdi en Salad.",
+      de: "Ein scharfes Spinatcurry mit indischem Käse, ein süßes Gemüsecurry, eine Beilage und Onion Bhaji. Serviert mit Reis, Naan, Soan Papdi und Salat.",
+    },
+    price: 20.5,
+    category: "main",
+    subcategory: "thali",
+    spiceLevel: "medium",
+    dietary: ["halal", "vegetarian"],
+    image: "/thali-vegetarisch.jpg",
+    isPopular: false,
+  },
+
+  {
+    id: "thali-vegan",
+    name: {
+      en: "Vegan Thali",
+      nl: "Thali vegan",
+      de: "Veganes Thali",
+    },
+    description: {
+      en: "A spicy chickpea curry, a sweet vegetable curry, a side dish, and onion bhaji. Served with rice, naan, soan papdi, and salad.",
+      nl: "Een pittige curry met Kikkererwten, een zoete curry met Gronten, een bijgerecht en onion Bhaji, Geserveerd met een rijst, Naan, Soan Papdi en Salad.",
+      de: "Ein scharfes Kichererbsencurry, ein süßes Gemüsecurry, eine Beilage und Onion Bhaji. Serviert mit Reis, Naan, Soan Papdi und Salat.",
+    },
+    price: 20.5,
+    category: "main",
+    subcategory: "thali",
+    spiceLevel: "medium",
+    dietary: ["halal", "vegetarian", "vegan"],
+    image: "/thali-vegan.jpg",
+    isPopular: false,
   },
 
   {
@@ -1893,7 +1960,7 @@ export const menuItems: MenuItem[] = [
       de: "weiches indisches Fladenbrot mit Butter",
     },
     price: 3.0,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegetarian", "halal"],
     image: "/butter-naan.jpg",
     isPopular: true,
@@ -1911,7 +1978,7 @@ export const menuItems: MenuItem[] = [
       de: "weiches Fladenbrot mit frischem Knoblauch",
     },
     price: 4.0,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegetarian", "halal"],
     image: "/garlic-naan.jpg",
     isPopular: true,
@@ -1929,7 +1996,7 @@ export const menuItems: MenuItem[] = [
       de: "süßes Naan mit Nüssen und Trockenfrüchten",
     },
     price: 5.0,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegetarian", "halal"],
     image: "/kashmiri-naan.jpg",
     isPopular: true,
@@ -1947,7 +2014,7 @@ export const menuItems: MenuItem[] = [
       de: "Naan gefüllt mit geschmolzenem Käse",
     },
     price: 5.0,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegetarian", "halal"],
     image: "/cheese-naan.jpg",
     isPopular: true,
@@ -1965,7 +2032,7 @@ export const menuItems: MenuItem[] = [
       de: "Naan gefüllt mit Käse und mit Knoblauch belegt",
     },
     price: 5.5,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegetarian", "halal"],
     image: "/garlic-cheese-naan.jpg",
     isPopular: true,
@@ -1983,7 +2050,7 @@ export const menuItems: MenuItem[] = [
       de: "Naan gefüllt mit gewürztem Hackfleisch",
     },
     price: 5.5,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["halal"],
     image: "/keema-naan.jpg",
     isPopular: true,
@@ -2001,7 +2068,7 @@ export const menuItems: MenuItem[] = [
       de: "Naan gefüllt mit gewürzter Kartoffelfüllung",
     },
     price: 5.0,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegetarian", "halal"],
     image: "/aalo-naan.jpg",
     isPopular: true,
@@ -2019,7 +2086,7 @@ export const menuItems: MenuItem[] = [
       de: "weiches indisches Fladenbrot ohne Milchprodukte",
     },
     price: 3.0,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegan", "halal"],
     image: "/vegan-naan.jpg",
     isPopular: true,
@@ -2037,7 +2104,7 @@ export const menuItems: MenuItem[] = [
       de: "aromatischer Basmati-Reis, perfekt zu Currys",
     },
     price: 3.0,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegetarian", "halal"],
     image: "/basmati-rijst.jpg",
     isPopular: true,
@@ -2055,7 +2122,7 @@ export const menuItems: MenuItem[] = [
       de: "speziell gewürzter Reis mit Kräutern und Gewürzen",
     },
     price: 6.0,
-    category: "bread",
+    category: "bread & rice",
     dietary: ["vegetarian", "halal"],
     image: "/de-kleine-man-special-rijst.jpg",
     isPopular: true,
@@ -2117,25 +2184,7 @@ export const menuItems: MenuItem[] = [
     image: "/mango-lassi.jpg",
     isPopular: true,
   },
-  {
-    id: "appelsap",
-    name: {
-      en: "Appelsap",
-      nl: "Appelsap",
-      de: "Apfelsaft",
-    },
-    description: {
-      en: "fresh apple juice served chilled",
-      nl: "verse appelsap gekoeld geserveerd",
-      de: "frischer Apfelsaft, gekühlt serviert",
-    },
-    price: 3.0,
-    category: "drinks",
-    subcategory: "cold drink",
-    dietary: ["vegetarian", "halal"],
-    image: "/appelsap.jpg",
-    isPopular: true,
-  },
+
   {
     id: "coca-cola",
     name: {
@@ -2401,7 +2450,7 @@ export function getMenuItemById(id: string): MenuItem | undefined {
 export const menuCategories: { key: MenuCategory; priority: number }[] = [
   { key: "starters", priority: 1 },
   { key: "main", priority: 2 },
-  { key: "bread", priority: 3 },
+  { key: "bread & rice", priority: 3 },
   { key: "sides", priority: 4 },
   { key: "dessert", priority: 5 },
   { key: "drinks", priority: 6 },

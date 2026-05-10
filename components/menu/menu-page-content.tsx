@@ -34,7 +34,7 @@ export function MenuPageContent() {
     all: locale === "nl" ? "Alles" : locale === "de" ? "Alle" : "All",
     starters: t.menu.categories.starters,
     main: t.menu.categories.main,
-    bread: t.menu.categories.bread,
+    "bread & rice": t.menu.categories["bread & rice"],
     sides: t.menu.categories.sides,
     dessert: t.menu.categories.dessert,
     drinks: t.menu.categories.drinks,

@@ -94,6 +94,7 @@ export const translations = {
       categories: {
         popular: "Popular",
         main: "Main Courses",
+        "menu-for-two": "Menu for Two",
         starters: "Starters",
         sides: "Sides",
         "bread & rice": "Bread & Rice",
@@ -381,6 +382,7 @@ export const translations = {
         sides: "Bijgerechten",
         dessert: "Desserts",
         drinks: "Dranken",
+        "menu-for-two": "Menu voor Twee Personen",
       },
       spiceLevel: {
         mild: "Mild",
@@ -662,6 +664,7 @@ export const translations = {
       subtitle: "Entdecken Sie unsere authentischen indischen Gerichte",
       categories: {
         main: "Hauptgerichte",
+        "menu-for-two": "Menü für Zwei Personen",
         starters: "Vorspeisen",
         "bread & rice": "Brood & Reis",
         sides: "Beilagen",

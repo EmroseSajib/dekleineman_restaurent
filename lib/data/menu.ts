@@ -14,6 +14,7 @@ export type DietaryTag =
 export type MenuCategory =
   | "starters"
   | "main"
+  | "menu-for-two"
   | "bread & rice"
   | "sides"
   | "dessert"
@@ -64,6 +65,11 @@ export interface MenuItem {
 export const categoryLabels = {
   starters: { en: "Starters", nl: "Voorgerechten", de: "Vorspeisen" },
   main: { en: "Main Course", nl: "Hoofdgerechten", de: "Hauptgericht" },
+  "menu-for-two": {
+    en: "Menu for Two",
+    nl: "Menu voor Twee",
+    de: "Menü für Zwei",
+  },
   traditional: { en: "Traditional", nl: "Traditioneel", de: "Traditionell" },
   tandoori: { en: "Tandoori", nl: "Tandoori", de: "Tandoori" },
   kufte: { en: "Kufte", nl: "Kufte", de: "Kufte" },
@@ -90,7 +96,12 @@ export const subcategoryLabels = {
     nl: "Kip Currys",
     de: "Hähnchen-Currys",
   },
-  vageterian: { en: "Vegetarian", nl: "Vegetarisch", de: "Vegetarisch" },
+  "chicken-curry": {
+    en: "Chicken Curry",
+    nl: "Kip Curry",
+    de: "Hähnchen-Curry",
+  },
+  vegetarian: { en: "Vegetarian", nl: "Vegetarisch", de: "Vegetarisch" },
   salads: { en: "Salads", nl: "Salades", de: "Salate" },
   biryani: { en: "Biryani", nl: "Biryani", de: "Biryani" },
   curry: { en: "Curry", nl: "Curry", de: "Curry" },
@@ -1260,7 +1271,7 @@ export const menuItems: MenuItem[] = [
     category: "main",
     subcategory: "vegetarian",
     spiceLevel: "mild",
-    dietary: ["vegetarian", "halal"],
+    dietary: ["halal"],
     image: "/gronten-butter-curry.jpg",
     isPopular: true,
   },
@@ -1280,7 +1291,7 @@ export const menuItems: MenuItem[] = [
     category: "main",
     subcategory: "vegetarian",
     spiceLevel: "medium",
-    dietary: ["vegetarian", "halal"],
+    dietary: ["halal"],
     image: "/gronten-masala.jpg",
     isPopular: true,
   },
@@ -1320,7 +1331,7 @@ export const menuItems: MenuItem[] = [
     category: "main",
     subcategory: "vegetarian",
     spiceLevel: "mild",
-    dietary: ["vegetarian", "halal"],
+    dietary: ["halal"],
     image: "/mater-paneer.jpg",
     isPopular: true,
   },
@@ -1340,7 +1351,7 @@ export const menuItems: MenuItem[] = [
     category: "main",
     subcategory: "vegetarian",
     spiceLevel: "mild",
-    dietary: ["vegetarian", "halal"],
+    dietary: ["halal"],
     image: "/palak-paneer.jpg",
     isPopular: true,
   },
@@ -1360,7 +1371,7 @@ export const menuItems: MenuItem[] = [
     category: "main",
     subcategory: "vegetarian",
     spiceLevel: "medium",
-    dietary: ["vegetarian", "halal"],
+    dietary: ["halal"],
     image: "/paneer-bhuna.jpg",
     isPopular: false,
   },
@@ -2433,6 +2444,132 @@ export const menuItems: MenuItem[] = [
     image: "/bavaria-alc-vrij.jpg",
     isPopular: true,
   },
+
+  {
+    id: "m4-vlees-menu",
+    name: {
+      en: "Meat Menu",
+      nl: "Vlees Menu",
+      de: "Fleisch Menü",
+    },
+    description: {
+      en: "A spicy beef curry, a sweet chicken curry, a side dish, and a tandoori item. Served with rice and naan.",
+      nl: "Een pittige curry met Rund, een zoete curry met Kip, een bijgerecht en een tandoori item. Geserveerd met een rijst en een Naan.",
+      de: "Ein würziges Rindercurry, ein süßes Hähnchencurry, eine Beilage und ein Tandoori-Gericht. Serviert mit Reis und Naan.",
+    },
+    price: 36,
+    category: "menu-for-two",
+    // subcategory: "thali",
+    spiceLevel: "medium",
+    dietary: ["halal"],
+    image: "/m4-vlees-menu.jpg",
+    isPopular: true,
+  },
+
+  {
+    id: "m5-groente-menu",
+    name: {
+      en: "Vegetable Menu",
+      nl: "Groente menu",
+      de: "Gemüse Menü",
+    },
+    description: {
+      en: "A spicy spinach curry with Indian cheese, a sweet vegetable curry, a side dish, and a tandoori item. Served with rice and naan.",
+      nl: "Een pittige curry met spinazie en Indiase kaas, een zoete curry met groenten, een bijgerecht en een tandoori item. Geserveerd met rijst en een Naan.",
+      de: "Ein würziges Spinatcurry mit indischem Käse, ein süßes Gemüsecurry, eine Beilage und ein Tandoori-Gericht. Serviert mit Reis und Naan.",
+    },
+    price: 34,
+    category: "menu-for-two",
+    // subcategory: "vegetarian-menu",
+    spiceLevel: "medium",
+    dietary: ["halal", "vegetarian"],
+    image: "/m5-groente-menu.jpg",
+    isPopular: true,
+  },
+
+  {
+    id: "m6-vegan-menu",
+    name: {
+      en: "Vegan Menu",
+      nl: "Vegan menu",
+      de: "Veganes Menü",
+    },
+    description: {
+      en: "A spicy chickpea curry, a sweet vegetable curry, a side dish, and a tandoori item. Served with rice.",
+      nl: "Een pittige curry met Kikkererwten, een zoete curry met groenten, een bijgerecht en een tandoori item. Geserveerd met rijst.",
+      de: "Ein würziges Kichererbsencurry, ein süßes Gemüsecurry, eine Beilage und ein Tandoori-Gericht. Serviert mit Reis.",
+    },
+    price: 34,
+    category: "menu-for-two",
+    // subcategory: "vegan-menu",
+    spiceLevel: "medium",
+    dietary: ["halal", "vegetarian", "vegan"],
+    image: "/m6-vegan-menu.jpg",
+    isPopular: false,
+  },
+
+  {
+    id: "m1-drie-gangen-menu-delhi",
+    name: {
+      en: "Three Course Menu Delhi",
+      nl: "Drie gangen menu Delhi",
+      de: "Drei-Gänge-Menü Delhi",
+    },
+    description: {
+      en: "Starter: Chicken tandoori. Main courses: Butter Chicken (sweet curry), Beef Rogan Josh (spicy curry), spiced potato and peas curry, rice, and two naan breads. Dessert: Gulab Jamun (sweet syrup balls).",
+      nl: "Voorgerecht: Chicken tandoori. Hoofdgerechten: Butter Chicken (lekker zoet Curry), Rund Rogan Josh (lekker pittig Curry), gekruide aardappel en doperwten curry, een bak rijst en twee Naan brood. Desert: Gulab Jamun (zoete bolletjes in siroop).",
+      de: "Vorspeise: Chicken Tandoori. Hauptgerichte: Butter Chicken (süßes Curry), Rind Rogan Josh (würziges Curry), gewürztes Kartoffel-Erbsen-Curry, Reis und zwei Naan-Brote. Dessert: Gulab Jamun (süße Sirupbällchen).",
+    },
+    price: 70,
+    category: "menu-for-two",
+    // subcategory: "three-course-menu",
+    spiceLevel: "medium",
+    dietary: ["halal"],
+    image: "/m1-drie-gangen-menu-delhi.jpg",
+    isPopular: true,
+  },
+
+  {
+    id: "m2-drie-gangen-menu-kolkata",
+    name: {
+      en: "Three Course Menu Kolkata",
+      nl: "Drie gangen menu Kolkata",
+      de: "Drei-Gänge-Menü Kolkata",
+    },
+    description: {
+      en: "Starter: Veg Samosa. Main courses: Vegetable Korma (sweet curry), spinach curry with Indian cheese (spicy curry), spiced potato and peas curry, rice, and two naan breads. Dessert: Soan Papdi (a thick cotton candy sweet with nuts).",
+      nl: "Voorgerecht: Veg Samosa. Hoofdgerechten: Groenten Korma (lekker zoet Curry), curry met spinazie en Indiase kaas (lekker pittig Curry), gekruide aardappel en doperwten curry, een bak rijst en twee Naan brood. Desert: Soan Papdi (een dikke variant van suikerspin met noten).",
+      de: "Vorspeise: Veg Samosa. Hauptgerichte: Gemüse Korma (süßes Curry), Spinatcurry mit indischem Käse (würziges Curry), gewürztes Kartoffel-Erbsen-Curry, Reis und zwei Naan-Brote. Dessert: Soan Papdi (eine dicke Zuckerwatte-Variante mit Nüssen).",
+    },
+    price: 70,
+    category: "menu-for-two",
+    // subcategory: "three-course-menu",
+    spiceLevel: "medium",
+    dietary: ["halal", "vegetarian"],
+    image: "/m2-drie-gangen-menu-kolkata.jpg",
+    isPopular: true,
+  },
+
+  {
+    id: "m3-drie-gangen-menu-de-kleine-man",
+    name: {
+      en: "Three Course Menu De Kleine Man",
+      nl: "Drie gangen menu De Kleine Man",
+      de: "Drei-Gänge-Menü De Kleine Man",
+    },
+    description: {
+      en: "Starter: Mulligatawny soup. Main courses: Prawn Tikka Masala (sweet curry), Bhuna Chicken (spicy curry), spiced potato and peas curry, rice, and two naan breads. Dessert: Gulab Jamun (sweet syrup balls).",
+      nl: "Voorgerecht: Muligatawny soup. Hoofdgerechten: Garnalen Tikka Masala (lekker zoet Curry), Bhuna Chicken (lekker pittig Curry), gekruide aardappel en doperwten curry, een bak rijst en twee Naan brood. Desert: Gulab Jamun (zoete bolletjes in siroop).",
+      de: "Vorspeise: Mulligatawny-Suppe. Hauptgerichte: Garnelen Tikka Masala (süßes Curry), Bhuna Chicken (würziges Curry), gewürztes Kartoffel-Erbsen-Curry, Reis und zwei Naan-Brote. Dessert: Gulab Jamun (süße Sirupbällchen).",
+    },
+    price: 70,
+    category: "menu-for-two",
+    // subcategory: "three-course-menu",
+    spiceLevel: "medium",
+    dietary: ["halal"],
+    image: "/m3-drie-gangen-menu-de-kleine-man.jpg",
+    isPopular: true,
+  },
 ];
 
 export function getMenuItemsByCategory(category: MenuCategory): MenuItem[] {
@@ -2450,8 +2587,9 @@ export function getMenuItemById(id: string): MenuItem | undefined {
 export const menuCategories: { key: MenuCategory; priority: number }[] = [
   { key: "starters", priority: 1 },
   { key: "main", priority: 2 },
-  { key: "bread & rice", priority: 3 },
-  { key: "sides", priority: 4 },
-  { key: "dessert", priority: 5 },
-  { key: "drinks", priority: 6 },
+  { key: "menu-for-two", priority: 3 },
+  { key: "bread & rice", priority: 4 },
+  { key: "sides", priority: 5 },
+  { key: "dessert", priority: 6 },
+  { key: "drinks", priority: 7 },
 ];

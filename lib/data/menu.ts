@@ -177,8 +177,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-tikka",
     name: {
       en: "Chicken Tikka",
-      nl: "Chicken Tikka",
-      de: "Chicken Tikka",
+      nl: "Kip Tikka",
+      de: "Hähnchen Tikka",
     },
     description: {
       en: "marinated chicken pieces grilled in the tandoor",
@@ -458,8 +458,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-chaat",
     name: {
       en: "Chicken Chaat",
-      nl: "Chicken Chaat",
-      de: "Chicken Chaat",
+      nl: "Kip Chaat",
+      de: "Hähnchen Chaat",
     },
     description: {
       en: "spiced chicken pieces mixed with herbs and tangy sauce",
@@ -498,8 +498,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-tikka-masala",
     name: {
       en: "Chicken Tikka Masala",
-      nl: "Chicken Tikka Masala",
-      de: "Kip Tikka Masala",
+      nl: "Kip Tikka Masala",
+      de: "Hähnchen Tikka Masala",
     },
     description: {
       en: "grilled chicken in a rich spiced tomato masala sauce",
@@ -538,8 +538,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-korma",
     name: {
       en: "Chicken Korma",
-      nl: "Chicken Korma",
-      de: "Kip Korma",
+      nl: "Kip Korma",
+      de: "Hähnchen Korma",
     },
     description: {
       en: "mild chicken curry cooked with cream and coconut",
@@ -578,8 +578,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-bhuna",
     name: {
       en: "Chicken Bhuna",
-      nl: "Chicken Bhuna",
-      de: "Kip Bhuna",
+      nl: "Kip Bhuna",
+      de: "Hähnchen Bhuna",
     },
     description: {
       en: "thick medium-spiced chicken curry cooked with onions and tomatoes",
@@ -618,8 +618,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-jalfrezi",
     name: {
       en: "Chicken Jalfrezi",
-      nl: "Chicken Jalfrezi",
-      de: "Kip Jalfrezi",
+      nl: "Kip Jalfrezi",
+      de: "Hähnchen Jalfrezi",
     },
     description: {
       en: "spicy chicken cooked with peppers, onions and fresh herbs",
@@ -658,8 +658,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-pathia",
     name: {
       en: "Chicken Pathia",
-      nl: "Chicken Pathia",
-      de: "Kip Pathia",
+      nl: "Kip Pathia",
+      de: "Hähnchen Pathia",
     },
     description: {
       en: "sweet and sour spicy chicken curry",
@@ -678,8 +678,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-madras",
     name: {
       en: "Chicken Madras",
-      nl: "Chicken Madras",
-      de: "Kip Madras",
+      nl: "Kip Madras",
+      de: "Hähnchen Madras",
     },
     description: {
       en: "hot South Indian style chicken curry",
@@ -698,8 +698,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-vindaloo",
     name: {
       en: "Chicken Vindaloo",
-      nl: "Chicken Vindaloo",
-      de: "Kip Vindaloo",
+      nl: "Kip Vindaloo",
+      de: "Hähnchen Vindaloo",
     },
     description: {
       en: "very hot chicken curry cooked with chili and spices",
@@ -1499,8 +1499,8 @@ export const menuItems: MenuItem[] = [
     id: "chicken-tikka",
     name: {
       en: "Chicken Tikka",
-      nl: "Chicken Tikka",
-      de: "Kip Tikka",
+      nl: "Kip Tikka",
+      de: "Hähnchen Tikka",
     },
     description: {
       en: "marinated chicken pieces grilled to perfection",
@@ -1519,13 +1519,13 @@ export const menuItems: MenuItem[] = [
     id: "chicken-malai-tikka",
     name: {
       en: "Chicken Malai Tikka",
-      nl: "Chicken Malai Tikka",
-      de: "Kip Malai Tikka",
+      nl: "Kip Malai Tikka",
+      de: "Hähnchen Malai Tikka",
     },
     description: {
       en: "creamy and mild chicken tikka with cheese and spices",
-      nl: "romige en milde chicken tikka met kaas en kruiden",
-      de: "Cremiges und mildes Chicken Tikka mit Käse und Gewürzen",
+      nl: "romige en milde kip tikka met kaas en kruiden",
+      de: "Cremiges und mildes Hühnchen Tikka mit Käse und Gewürzen",
     },
     price: 20.0,
     category: "main",

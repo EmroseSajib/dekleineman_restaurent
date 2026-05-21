@@ -18,8 +18,8 @@ export const restaurantInfo = {
     full: "Heezenstraat 24, 7001BR Doetinchem, Netherlands",
   },
   contact: {
-    phone: "+31 6 8794 7371",
-    phoneFormatted: "+31 6 87 94 73 71",
+    phone: "+31 85 066 23 13",
+    phoneFormatted: "+31 85 066 23 13",
     email: "restaurantdekleineman@gmail.com",
     website: "https://dekleineman.nl",
   },

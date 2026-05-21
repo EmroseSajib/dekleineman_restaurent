@@ -135,10 +135,10 @@ export default function AboutPage() {
                 <p className="mt-2 text-[13px] leading-relaxed">
                   Phone:{" "}
                   <a
-                    href="tel:+31687947371"
+                    href="tel:+31850662313"
                     className="font-medium text-amber-700 hover:underline"
                   >
-                    +31 6 87 94 73 71
+                    +31 85 066 23 13
                   </a>
                   <br />
                   Email:{" "}

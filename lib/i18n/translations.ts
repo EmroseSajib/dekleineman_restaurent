@@ -30,7 +30,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        "🎉 Buy 1 Get 1 FREE! Papadums, Butter Naan & Onion Bhaji – Limited Time Offer!",
+        "🎉 Buy 1 Naan, rice or papadum and get 30% discount on 2nd one for similar items",
       christmas: "🎄 Christmas Special Menu - Book your table now!",
       valentine: "❤️ Valentine's Special - Romantic dinner for two",
     },
@@ -314,7 +314,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        "🎉 Koop 1, krijg 1 GRATIS! Papadums, Butter Naan & Onion Bhaji – Tijdelijke aanbieding!",
+        "🎉 Koop een Naan, Rijst of Papadum en ontvang 30% korting op een tweede item uit dezelfde categorie.",
       christmas: "🎄 Kerst Speciaal Menu - Reserveer nu uw tafel!",
       valentine: "❤️ Valentijn Speciaal - Romantisch diner voor twee",
     },
@@ -599,7 +599,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        "🎉 Kaufe 1, erhalte 1 GRATIS! Papadums, Butter Naan & Onion Bhaji – Nur für kurze Zeit!",
+        "🎉 Koop een Naan, Rijst of Papadum en ontvang 30% korting op een tweede item uit dezelfde categorie.",
       christmas:
         "🎄 Weihnachts-Spezialmenü - Reservieren Sie jetzt Ihren Tisch!",
       valentine: "❤️ Valentinstag Spezial - Romantisches Abendessen für zwei",

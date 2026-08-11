@@ -5,6 +5,7 @@ import { HoursSection } from "@/components/home/hours-section";
 import { LocationSection } from "@/components/home/location-section";
 import { PopularDishesSection } from "@/components/home/popular-dishes-section";
 import { TestimonialsSection } from "@/components/home/testimonials-section";
+import { HolidayClosedPopup } from "@/components/notice/HolidayClosedPopup";
 import { OccasionBanner } from "@/components/ui/occasion-banner";
 import type { Metadata } from "next";
 
@@ -17,6 +18,8 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      <HolidayClosedPopup />
+
       {/* Occasion banner - configurable */}
       <div className="pt-16 lg:pt-24">
         <OccasionBanner

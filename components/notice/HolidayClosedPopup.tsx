@@ -27,7 +27,7 @@ export function HolidayClosedPopup() {
 
         <p className="leading-7 text-gray-600">
           Wij zijn gesloten wegens zomervakantie van{" "}
-          <strong>10 t/m 16 augustus</strong>.
+          <strong>10 t/m 17 augustus</strong>.
           <br />
           Vanaf <strong>17 augustus</strong> staan wij weer voor u klaar!
         </p>

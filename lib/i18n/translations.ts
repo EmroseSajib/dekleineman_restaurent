@@ -30,8 +30,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        // "🎉 Buy 1 Naan, rice or papadum and get 30% discount on 2nd one for similar items",
-        "🎉 2, 3 en 4 oktober is het laatste weekend dat we bezorgen buiten Doetinchem. Laten we er een smaakvolle herinnering van maken!",
+        "🎉 Buy 1 Naan, rice or papadum and get 30% discount on 2nd one for similar items",
       christmas: "🎄 Christmas Special Menu - Book your table now!",
       valentine: "❤️ Valentine's Special - Romantic dinner for two",
     },
@@ -315,8 +314,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        // "🎉 Koop een Naan, Rijst of Papadum en ontvang 30% korting op een tweede item uit dezelfde categorie.",
-        "🎉 2, 3 en 4 oktober is het laatste weekend dat we bezorgen buiten Doetinchem. Laten we er een smaakvolle herinnering van maken!",
+        "🎉 Koop een Naan, Rijst of Papadum en ontvang 30% korting op een tweede item uit dezelfde categorie.",
       christmas: "🎄 Kerst Speciaal Menu - Reserveer nu uw tafel!",
       valentine: "❤️ Valentijn Speciaal - Romantisch diner voor twee",
     },
@@ -601,8 +599,7 @@ export const translations = {
     // Occasion Banner
     banner: {
       default:
-        // "🎉 Koop een Naan, Rijst of Papadum en ontvang 30% korting op een tweede item uit dezelfde categorie.",
-        "🎉 2, 3 en 4 oktober is het laatste weekend dat we bezorgen buiten Doetinchem. Laten we er een smaakvolle herinnering van maken!",
+        "🎉 Koop een Naan, Rijst of Papadum en ontvang 30% korting op een tweede item uit dezelfde categorie.",
       christmas:
         "🎄 Weihnachts-Spezialmenü - Reservieren Sie jetzt Ihren Tisch!",
       valentine: "❤️ Valentinstag Spezial - Romantisches Abendessen für zwei",
